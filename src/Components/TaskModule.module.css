@@ -1,0 +1,56 @@
+.taskModuleTopDiv{
+    display: flex;
+    padding: 20px;
+}
+.eachTaskDiv{
+    display: flex;
+    border: 1px solid grey;
+    padding: 10px;
+}
+.taskContent{
+    display : flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.taskContent>div:nth-child(1){
+    display: flex;
+    flex-direction: row;
+    
+}
+.taskModule{
+    border: 1px solid grey;
+    width: 40%;
+    background-color: white;
+}
+.taskModuleBottomDiv{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.taskModuleBottomDiv>button{
+    padding: 7px 15px;
+    cursor: pointer;
+}
+.taskModuleBottomDiv>button:nth-child(1){
+    background-color: white;
+    color: blue;
+    border: none;
+}
+.taskModuleBottomDiv>button:nth-child(2){
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px ;
+}
+.taskType{
+    margin-left: 10px;
+    color : white;
+    font-size: small;
+    padding : 3px 10px;
+    font-weight: bold;
+    border-radius: 4px ;
+}
+.taskModuleTopDiv>div:nth-child(2){
+    margin-left: 20px;
+}
